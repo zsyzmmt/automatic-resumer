@@ -1,0 +1,635 @@
+{
+ "fetched_at": "2026-09-07 21:00",
+ "items": {
+  "9257": {
+   "name": "营业部/集配站站长",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9277": {
+   "name": "仓/场地经理",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9073": {
+   "name": "市场营销",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9076": {
+   "name": "客户体验提升",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9114": {
+   "name": "机械工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9285": {
+   "name": "药房管理储备",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9095": {
+   "name": "算法工程师-数据挖掘",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9088": {
+   "name": "数据应用工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9301": {
+   "name": "医师（正骨方向）",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9253": {
+   "name": "医师（医美方向）",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9271": {
+   "name": "医师（口腔方向）",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9313": {
+   "name": "医技",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9329": {
+   "name": "销售拓展",
+   "direction": "一线销售方向",
+   "workPlace": ""
+  },
+  "9323": {
+   "name": "客服管理储备",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9128": {
+   "name": "客服运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9070": {
+   "name": "解决方案",
+   "direction": "产品方向",
+   "workPlace": ""
+  },
+  "9071": {
+   "name": "商业分析",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9107": {
+   "name": "物流运营",
+   "direction": "采销与物流方向",
+   "workPlace": ""
+  },
+  "9039": {
+   "name": "商务拓展（金融）",
+   "direction": "保险及金融方向",
+   "workPlace": ""
+  },
+  "9222": {
+   "name": "采销（电商运营）",
+   "direction": "采销与物流方向",
+   "workPlace": ""
+  },
+  "9119": {
+   "name": "产品运营",
+   "direction": "产品方向",
+   "workPlace": ""
+  },
+  "9085": {
+   "name": "技术产品经理",
+   "direction": "产品方向",
+   "workPlace": ""
+  },
+  "9077": {
+   "name": "平台运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9108": {
+   "name": "后端开发工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9096": {
+   "name": "产研项目管理",
+   "direction": "产品方向",
+   "workPlace": ""
+  },
+  "9086": {
+   "name": "测试开发工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9091": {
+   "name": "算法工程师-具身智能",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9089": {
+   "name": "数据开发工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9104": {
+   "name": "前端开发工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9112": {
+   "name": "算法工程师-多模态大模型",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9084": {
+   "name": "算法工程师-机器学习",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9102": {
+   "name": "硬件测试工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9103": {
+   "name": "嵌入式技术工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9105": {
+   "name": "物流规划与实施",
+   "direction": "采销与物流方向",
+   "workPlace": ""
+  },
+  "9120": {
+   "name": "供应链规划",
+   "direction": "采销与物流方向",
+   "workPlace": ""
+  },
+  "9213": {
+   "name": "物流方向",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9210": {
+   "name": "技术方向-AI Infra",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9207": {
+   "name": "技术方向-具身智能与机器人开发",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9054": {
+   "name": "战略",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9321": {
+   "name": "用工渠道拓展",
+   "direction": "一线职能方向",
+   "workPlace": ""
+  },
+  "9057": {
+   "name": "招标采购",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9079": {
+   "name": "大客户销售",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9061": {
+   "name": "创意设计师",
+   "direction": "设计方向",
+   "workPlace": ""
+  },
+  "9117": {
+   "name": "电气工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9357": {
+   "name": "店长储备",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9355": {
+   "name": "家政运营",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9068": {
+   "name": "用户运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9334": {
+   "name": "信控管理储备",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9288": {
+   "name": "人才交付",
+   "direction": "一线职能方向",
+   "workPlace": ""
+  },
+  "9294": {
+   "name": "电话销售",
+   "direction": "一线销售方向",
+   "workPlace": ""
+  },
+  "9258": {
+   "name": "健康管理师",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9302": {
+   "name": "法务支持",
+   "direction": "一线职能方向",
+   "workPlace": ""
+  },
+  "9281": {
+   "name": "技术支持工程师",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9261": {
+   "name": "护理",
+   "direction": "一线专业方向",
+   "workPlace": ""
+  },
+  "9260": {
+   "name": "安全管理/损耗控制",
+   "direction": "一线职能方向",
+   "workPlace": ""
+  },
+  "9309": {
+   "name": "财务结算",
+   "direction": "一线职能方向",
+   "workPlace": ""
+  },
+  "9250": {
+   "name": "人事运营",
+   "direction": "一线职能方向",
+   "workPlace": ""
+  },
+  "9298": {
+   "name": "门店运营",
+   "direction": "一线销售方向",
+   "workPlace": ""
+  },
+  "9318": {
+   "name": "客户运营",
+   "direction": "一线销售方向",
+   "workPlace": ""
+  },
+  "9317": {
+   "name": "医生经纪人",
+   "direction": "一线销售方向",
+   "workPlace": ""
+  },
+  "9238": {
+   "name": "审核管理储备",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9308": {
+   "name": "客服支持储备",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9307": {
+   "name": "门店督导",
+   "direction": "基层管理方向",
+   "workPlace": ""
+  },
+  "9063": {
+   "name": "商家运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9115": {
+   "name": "无人机研发工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9065": {
+   "name": "商务拓展",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9131": {
+   "name": "金融策略",
+   "direction": "保险及金融方向",
+   "workPlace": ""
+  },
+  "9050": {
+   "name": "法务",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9111": {
+   "name": "人力资源（专业方向）",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9081": {
+   "name": "数据分析",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9130": {
+   "name": "渠道销售",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9129": {
+   "name": "营销运营",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9127": {
+   "name": "服务运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9125": {
+   "name": "项目与流程管理",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9126": {
+   "name": "医院经营（健康）",
+   "direction": "健康方向",
+   "workPlace": ""
+  },
+  "9024": {
+   "name": "门店运营（健康）",
+   "direction": "健康方向",
+   "workPlace": ""
+  },
+  "9040": {
+   "name": "医务",
+   "direction": "健康方向",
+   "workPlace": ""
+  },
+  "9026": {
+   "name": "医生运营（健康）",
+   "direction": "健康方向",
+   "workPlace": ""
+  },
+  "9122": {
+   "name": "金融产品经理",
+   "direction": "保险及金融方向",
+   "workPlace": ""
+  },
+  "9032": {
+   "name": "核保",
+   "direction": "保险及金融方向",
+   "workPlace": ""
+  },
+  "9034": {
+   "name": "精算师",
+   "direction": "保险及金融方向",
+   "workPlace": ""
+  },
+  "9038": {
+   "name": "金融风控",
+   "direction": "保险及金融方向",
+   "workPlace": ""
+  },
+  "9123": {
+   "name": "食品研发",
+   "direction": "工程方向",
+   "workPlace": ""
+  },
+  "9028": {
+   "name": "航空职能",
+   "direction": "工程方向",
+   "workPlace": ""
+  },
+  "9035": {
+   "name": "工程技术",
+   "direction": "工程方向",
+   "workPlace": ""
+  },
+  "9051": {
+   "name": "工程项目管理",
+   "direction": "工程方向",
+   "workPlace": ""
+  },
+  "9043": {
+   "name": "公共事务",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9044": {
+   "name": "物业管理",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9046": {
+   "name": "行政",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9053": {
+   "name": "资金管理",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9056": {
+   "name": "税务",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9048": {
+   "name": "审计",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9055": {
+   "name": "会计",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9047": {
+   "name": "财务经营分析",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9060": {
+   "name": "风控",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9049": {
+   "name": "合规",
+   "direction": "职能方向",
+   "workPlace": ""
+  },
+  "9062": {
+   "name": "用户研究",
+   "direction": "设计方向",
+   "workPlace": ""
+  },
+  "9045": {
+   "name": "交互设计师",
+   "direction": "设计方向",
+   "workPlace": ""
+  },
+  "9052": {
+   "name": "销售运营",
+   "direction": "市场与商务方向",
+   "workPlace": ""
+  },
+  "9058": {
+   "name": "视觉设计师",
+   "direction": "设计方向",
+   "workPlace": ""
+  },
+  "9090": {
+   "name": "算法工程师-语言大模型",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9082": {
+   "name": "线下业态规划运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9066": {
+   "name": "内容运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9072": {
+   "name": "广告运营",
+   "direction": "运营方向",
+   "workPlace": ""
+  },
+  "9080": {
+   "name": "物流产品服务",
+   "direction": "产品方向",
+   "workPlace": ""
+  },
+  "9087": {
+   "name": "技术运维工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9083": {
+   "name": "安全工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9030": {
+   "name": "算法工程师-无人机导航控制",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9097": {
+   "name": "算法工程师-运筹优化",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9099": {
+   "name": "算法工程师-搜索/推荐/广告",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9113": {
+   "name": "供应链运营",
+   "direction": "采销与物流方向",
+   "workPlace": ""
+  },
+  "9098": {
+   "name": "算法工程师-语音/音频大模型",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9093": {
+   "name": "算法工程师-AI Infra",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9094": {
+   "name": "算法工程师-视觉算法与数据交付",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9100": {
+   "name": "算法工程师-自动驾驶",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9110": {
+   "name": "移动端开发工程师",
+   "direction": "技术方向",
+   "workPlace": ""
+  },
+  "9116": {
+   "name": "基层管理储备",
+   "direction": "采销与物流方向",
+   "workPlace": ""
+  },
+  "9218": {
+   "name": "综合方向",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9216": {
+   "name": "产品方向",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9203": {
+   "name": "技术方向-大语言模型",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9201": {
+   "name": "技术方向-多模态大模型",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9199": {
+   "name": "技术方向-机器学习/深度学习",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9197": {
+   "name": "技术方向-全栈开发",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9195": {
+   "name": "技术方向-运筹大模型",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9191": {
+   "name": "技术方向-数据开发",
+   "direction": "TET",
+   "workPlace": ""
+  },
+  "9189": {
+   "name": "技术方向-安全开发",
+   "direction": "TET",
+   "workPlace": ""
+  }
+ }
+}
