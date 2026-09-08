@@ -1,35 +1,27 @@
 name: Daily JD Campus Scan
-
 on:
   schedule:
-    # UTC 时间 00:00 = 北京时间 08:00（GitHub 高峰期可能有 ±30 分钟漂移）
     - cron: '0 0 * * *'
-  workflow_dispatch: {}
-
+  workflow_dispatch:
 permissions:
   contents: write
-
 jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-
+          python-version: '3.12'
       - name: Scan JD campus positions
         run: python scripts/scan_jd.py
-
       - name: Commit baseline changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --cached --quiet || (git commit -m "chore: update scan data $(date -u +'%F %T')" && git push)
-
-          - name: Push report to WeChat via Server酱
+      - name: Push report to WeChat via Server酱
         env:
           SCT_SENDKEY: ${{ secrets.SCT_SENDKEY }}
         run: python scripts/notify.py
