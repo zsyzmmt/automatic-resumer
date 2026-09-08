@@ -1,15 +1,15 @@
-# 校招云端扫描（GitHub Actions + 企微 Webhook）
+# 校招云端扫描（GitHub Actions + Server酱微信推送）
 
 不依赖本机电脑开关机的校招岗位监控保底方案：
 每天北京时间 8:00 由 GitHub Actions 云端定时执行，扫描京东校招官方 API，
-对比昨日基线发现新增/下线岗位，并推送到企业微信群机器人。
+对比昨日基线发现新增/下线岗位，并通过 Server酱推送到你的微信。
 
 ## 目录结构
 
 ```
 ├── scripts/
-│   ├── scan_jd.py        # 扫描京东校招API + 对比基线 + 生成简报
-│   └── notify_wecom.py   # 把简报推送到企微群机器人 Webhook
+│   ├── scan_jd.py     # 扫描京东校招API + 对比基线 + 生成简报
+│   └── notify.py      # 把简报通过 Server酱 (SCT_SENDKEY) 推送到微信
 ├── data/
 │   ├── jd_baseline.json  # 岗位基线（每日扫描后自动更新并提交）
 │   └── scan_report.md    # 当日简报
@@ -26,14 +26,23 @@
    git remote add origin https://github.com/<你的用户名>/<仓库名>.git
    git push -u origin main
    ```
-3. 企业微信里新建一个群（拉一个同事/家人凑数即可）→ 群设置 → 添加群机器人 →
-   复制机器人的 Webhook 地址（形如
-   `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxx`）。
+3. 浏览器打开 [sct.ftqq.com](https://sct.ftqq.com) → 用**微信**扫码登录 →
+   首页会显示一串 **SendKey**（形如 `SCTxxxxxx...`）。
 4. GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret：
-   - Name: `WECOM_WEBHOOK`
-   - Secret: 完整 webhook 地址
-5. 测试：仓库 Actions 页 → Daily JD Campus Scan → Run workflow 手动跑一次，
-   企微群里应收到简报。
+   - Name: `SCT_SENDKEY`
+   - Secret: 完整 SendKey（`SCT` 开头那一串）
+5. 同步修改工作流文件：让 GitHub Actions 把 `SCT_SENDKEY` 注入到
+   `python scripts/notify.py` 这一步的环境变量里。最简单的方式是
+   在 GitHub 网页上编辑 `.github/workflows/daily-scan.yml`，找到
+   `python scripts/notify_wecom.py` 这一行替换为：
+   ```yaml
+   - name: Push report to WeChat via Server酱
+     env:
+       SCT_SENDKEY: ${{ secrets.SCT_SENDKEY }}
+     run: python scripts/notify.py
+   ```
+6. 测试：仓库 Actions 页 → Daily JD Campus Scan → Run workflow 手动跑一次，
+   微信应收到简报。
 
 ## 运行机制
 
