@@ -1,10 +1,10 @@
 # 京东校招每日扫描简报
 
-执行时间：2026-09-07 23:31（北京时间）
+执行时间：2026-09-08 09:47（北京时间）
 
 ## ❌ 校招岗位接口异常
 
-抓取失败：API request failed after retries: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>
+抓取失败：API request failed after retries: HTTP Error 500: 
 
 > 接口可能临时故障或拦截了海外IP，等待下次任务重试。
 
