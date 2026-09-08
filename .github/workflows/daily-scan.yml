@@ -29,7 +29,7 @@ jobs:
           git add data/
           git diff --cached --quiet || (git commit -m "chore: update scan data $(date -u +'%F %T')" && git push)
 
-      - name: Push report to WeCom webhook
+          - name: Push report to WeChat via Server酱
         env:
-          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
-        run: python scripts/notify_wecom.py
+          SCT_SENDKEY: ${{ secrets.SCT_SENDKEY }}
+        run: python scripts/notify.py
